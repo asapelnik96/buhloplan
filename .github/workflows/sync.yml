@@ -1,0 +1,15 @@
+name: Sync data to Supabase
+on:
+  push:
+    paths: ["data/docs.json"]
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python3 scripts/upload_docs.py data/docs.json --prune promos,venues
