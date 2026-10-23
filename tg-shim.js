@@ -48,13 +48,16 @@
   // ---------- вход ----------
   let token = null, tokenExp = 0, me = null;
   async function login() {
+    if (!/^https:\/\/[a-z0-9]+\.supabase\.co$/.test(CFG.SUPABASE_URL || "")) { const e = new Error("bad_config"); e.detail = "config.js: неверный SUPABASE_URL — " + CFG.SUPABASE_URL; throw e; }
+    if (!CFG.SUPABASE_ANON_KEY || /ВСТАВЬТЕ|СЮДА|ВАШ/.test(CFG.SUPABASE_ANON_KEY)) { const e = new Error("bad_config"); e.detail = "config.js: не вписан SUPABASE_ANON_KEY"; throw e; }
     const r = await fetch(`${CFG.SUPABASE_URL}/functions/v1/tg-auth`, {
       method: "POST",
-      headers: { "Content-Type": "application/json", apikey: CFG.SUPABASE_ANON_KEY },
+      headers: { "Content-Type": "application/json", apikey: CFG.SUPABASE_ANON_KEY, Authorization: "Bearer " + CFG.SUPABASE_ANON_KEY },
       body: JSON.stringify({ initData: TG.initData }),
     });
-    const j = await r.json().catch(() => ({}));
-    if (!r.ok) { const e = new Error(j.error || "auth_failed"); e.code = j.error; throw e; }
+    const txt = await r.text().catch(() => "");
+    let j = {}; try { j = JSON.parse(txt); } catch (x) {}
+    if (!r.ok) { const e = new Error(j.error || "auth_failed"); e.code = j.error || ("http_" + r.status); e.detail = `HTTP ${r.status}: ${(j.message || j.msg || j.error || txt).toString().slice(0, 160)}`; throw e; }
     token = j.token; tokenExp = j.exp; me = j.user;
     return token;
   }
@@ -204,7 +207,7 @@
   ready.catch((e) => {
     const msg = e.code === "not_allowed"
       ? "Вас нет в списке участников. Попросите организатора добавить ваш Telegram ID."
-      : "Не удалось войти через Telegram. Закройте и откройте приложение ещё раз.";
+      : "Не удалось войти через Telegram.\n" + (e.detail || ("Сеть: " + (e.message || e))) + "\n\nПришлите этот текст тому, кто настраивал приложение.";
     const show = () => { try { TG.showAlert(msg); } catch (x) { alert(msg); } };
     if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", show); else show();
   });
