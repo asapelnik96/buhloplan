@@ -51,16 +51,19 @@
     if (!/^https:\/\/[a-z0-9]+\.supabase\.co$/.test(CFG.SUPABASE_URL || "")) { const e = new Error("bad_config"); e.detail = "config.js: неверный SUPABASE_URL — " + CFG.SUPABASE_URL; throw e; }
     if (!CFG.SUPABASE_ANON_KEY || /ВСТАВЬТЕ|СЮДА|ВАШ/.test(CFG.SUPABASE_ANON_KEY)) { const e = new Error("bad_config"); e.detail = "config.js: не вписан SUPABASE_ANON_KEY"; throw e; }
     // Имя функции: из config.js, иначе пробуем tg-auth и tg_auth
-    const names = CFG.AUTH_FUNCTION ? [CFG.AUTH_FUNCTION] : ["tg-auth", "tg_auth"];
-    let r;
+    const names = CFG.AUTH_FUNCTION ? [CFG.AUTH_FUNCTION] : ["tg_auth", "tg-auth"];
+    let r = null, lastErr = null;
     for (const fn of names) {
-      r = await fetch(`${CFG.SUPABASE_URL}/functions/v1/${fn}`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", apikey: CFG.SUPABASE_ANON_KEY, Authorization: "Bearer " + CFG.SUPABASE_ANON_KEY },
-        body: JSON.stringify({ initData: TG.initData }),
-      });
-      if (r.status !== 404) break;
+      try {
+        r = await fetch(`${CFG.SUPABASE_URL}/functions/v1/${fn}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", apikey: CFG.SUPABASE_ANON_KEY, Authorization: "Bearer " + CFG.SUPABASE_ANON_KEY },
+          body: JSON.stringify({ initData: TG.initData }),
+        });
+        if (r.status !== 404) break;
+      } catch (e) { lastErr = e; r = null; }   // ответ без CORS (например, 404 шлюза) — пробуем следующее имя
     }
+    if (!r) { const e = new Error("network"); e.detail = "Сеть: " + (lastErr?.message || "нет ответа") + " (функция " + names.join(" / ") + ")"; throw e; }
     const txt = await r.text().catch(() => "");
     let j = {}; try { j = JSON.parse(txt); } catch (x) {}
     if (!r.ok) { const e = new Error(j.error || "auth_failed"); e.code = j.error || ("http_" + r.status); e.detail = `HTTP ${r.status}: ${(j.message || j.msg || j.error || txt).toString().slice(0, 160)}`; throw e; }
