@@ -40,8 +40,8 @@ h1,h2,h3{margin:0;text-wrap:balance}
 .me{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);min-width:0}
 .banner{background:var(--card);border:1px dashed var(--neon);border-radius:16px;padding:10px 14px;font-size:13px;color:var(--muted)}
 .banner b{color:var(--ink)}
-.nav{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px}
-.nav button{border:0;background:transparent;border-radius:999px;padding:9px 4px;font-family:var(--display);font-size:clamp(13px,3.6vw,16px);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.nav{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px}
+.nav button{border:0;background:transparent;border-radius:999px;padding:9px 2px;font-family:var(--display);font-size:clamp(11px,3.1vw,15px);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
 .nav button[aria-selected="true"]{background:var(--neon);color:#fff;box-shadow:0 0 18px rgba(255,46,136,.55)}
 
 /* Аватары */
@@ -413,6 +413,31 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .inv .stamp{justify-self:center;font-family:var(--display);font-weight:700;font-size:28px;color:#E0156E;border:4px double #E0156E;border-radius:8px;padding:4px 16px;transform:rotate(-8deg);letter-spacing:.06em}
 @media (prefers-reduced-motion:no-preference){.inv .stamp{animation:stampIn .35s cubic-bezier(.2,1.6,.4,1)}@keyframes stampIn{from{transform:rotate(-8deg) scale(2.2);opacity:0}to{transform:rotate(-8deg) scale(1);opacity:1}}}
 @media (prefers-reduced-motion:no-preference){.pol{transition:transform .2s}.pol:hover{transform:rotate(0) scale(1.03)}}
+/* v2: участники, команда, обратная связь */
+.org{display:inline-flex;align-items:center;gap:6px;font-size:13px}
+.org .av{width:22px;height:22px;font-size:10px}
+.badge{font-size:11px;font-weight:700;border-radius:999px;padding:1px 8px;background:var(--gold);color:#1A0B14;white-space:nowrap}
+.ppl{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.ppl li{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;background:rgba(0,0,0,.22);border-radius:12px;padding:6px 10px;font-size:14px}
+.ppl li .st{font-size:12px;font-weight:600;border-radius:999px;padding:2px 9px}
+.st.yes{background:rgba(61,220,151,.18);color:var(--ok)} .st.late{background:rgba(255,194,74,.18);color:var(--gold)}
+.st.drive{background:rgba(61,224,240,.16);color:var(--cyan)} .st.no{background:rgba(255,255,255,.08);color:var(--muted)}
+.pplsum{cursor:pointer;color:var(--gold);font-weight:600;font-size:13px}
+.members{display:grid;gap:8px}
+.member{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;background:var(--card-2);border:1px solid var(--line);border-radius:14px;padding:8px 12px}
+.member .nm{font-weight:600;min-width:0;overflow-wrap:anywhere}
+.member small{display:block;font-weight:400;font-size:12px;color:var(--muted)}
+.toggle{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px}
+.toggle button{min-width:64px}
+.fbform{display:grid;gap:10px}
+.fbform textarea{border:1px solid var(--line);background:var(--bg);border-radius:12px;padding:10px 12px;width:100%;min-height:90px;resize:vertical}
+.fbitem{background:var(--card-2);border:1px solid var(--line);border-left:4px solid var(--c,var(--neon));border-radius:14px;padding:10px 12px;display:grid;gap:6px}
+.fbitem p{margin:0;overflow-wrap:anywhere;white-space:pre-wrap}
+.fbitem .ft{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.fbitem .acts{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.vote{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:3px 10px;font-size:13px;font-weight:600;color:var(--ink)}
+.vote[aria-pressed="true"]{border-color:var(--neon);color:#fff;background:rgba(255,46,136,.25)}
+.delev{width:100%;margin-top:4px}
 </style>
 
 
@@ -422,7 +447,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
     <div class="me" id="me"></div>
   </header>
   <div class="banner" id="banner" hidden></div>
-  <nav class="nav" role="tablist" id="nav"><button role="tab" data-sec="events" aria-selected="true">Тусовки</button><button role="tab" data-sec="afisha" aria-selected="false">Афиша</button><button role="tab" data-sec="venues" aria-selected="false">Места</button><button role="tab" data-sec="top" aria-selected="false">Рейтинг</button></nav>
+  <nav class="nav" role="tablist" id="nav"><button role="tab" data-sec="events" aria-selected="true">Тусовки</button><button role="tab" data-sec="afisha" aria-selected="false">Афиша</button><button role="tab" data-sec="venues" aria-selected="false">Места</button><button role="tab" data-sec="top" aria-selected="false">Рейтинг</button><button role="tab" data-sec="team" aria-selected="false">Команда</button></nav>
   <main id="view" class="app" style="gap:16px">
     <div class="empty"><div class="mascot" style="width:96px;height:96px"><img alt="" id="loadMascot"></div><p>Наливаем данные…</p></div>
   </main>
@@ -510,6 +535,8 @@ let events = [], msgs = [], photos = [], promos = [], sync = null, route = {ev:n
 let pf = {cat:"all", today:false};
 let venues = [], vf = {cat:"club", q:""}, statuses = {};
 let unsubMsgs = null, unsubPhotos = null, builtFor = null;
+let evLoaded = false, justCreated = {id:null, at:0}, feedback = [], members = [], prefs = {}, IS_ADMIN = false, fbKind = "idea";
+const notify = (payload) => { try { if (mode === "db" && window.__notify) window.__notify(payload); } catch(e) {} };
 const P = {};  // кэш профилей: id -> {name, avatarUrl, color}
 
 /* ---------- демо-режим (когда общий режим недоступен) ---------- */
@@ -567,18 +594,25 @@ const DEMO_VENUES = [{"id": "most", "cat": "karaoke", "name": "Караоке «
     mode = "db";
     if (!canWrite) showBanner("<b>Только просмотр.</b> Чтобы создавать тусовки и писать в чат, попросите владельца дать вам доступ «Участник».");
     db.collection("events").onSnapshot(snap => {
-      events = snap.docs.map(d => ({id:d.id, ...d.data()}));
+      events = snap.docs.map(d => ({id:d.id, ...d.data()})); evLoaded = true;
       renderAll();
     }, err => { toast("Не удалось загрузить тусовки. Обновите страницу."); });
     db.collection("promos").limit(500).onSnapshot(snap => { promos = snap.docs.map(d => ({id:d.id, ...d.data()})); renderAll(); }, () => {});
     db.collection("status").limit(500).onSnapshot(snap => { statuses = {}; snap.docs.forEach(d => statuses[d.id] = d.data()); renderAll(); }, () => {});
     db.collection("venues").limit(500).onSnapshot(snap => { venues = snap.docs.map(d => ({id:d.id, ...d.data()})); renderAll(); }, () => {});
     db.doc("meta/sync").onSnapshot(s => { sync = s.exists ? s.data() : null; renderAll(); }, () => {});
+    try { IS_ADMIN = !!(user && user.isAdmin && await user.isAdmin()); } catch(e) {}
+    db.collection("feedback").orderBy("at","desc").limit(300).onSnapshot(snap => { feedback = snap.docs.map(d => ({id:d.id, ...d.data()})); if (route.sec === "team" && !route.ev) fillTeam(); }, () => {});
+    if (ME) db.doc("prefs/" + ME).onSnapshot(s => { prefs = s.exists ? s.data() : {}; if (route.sec === "team" && !route.ev) fillTeam(); }, () => {});
+    loadMembers();
   } else {
     mode = "demo";
     demoData();
     promos = DEMO_PROMOS; venues = DEMO_VENUES;
     statuses = {d5:{reason:"family", repeat:"weekends", ok:["car"], since:Date.now()}, d3:{reason:"sick", repeat:"none", until:Date.now()+20*3600e3, ok:["prod"], since:Date.now()}}; sync = {lastRun:"2026-10-20T20:40:00+03:00", found:DEMO_PROMOS.length};
+    members = Object.entries(P).map(([id,p]) => ({id, name:p.name, color:p.color, seen:Date.now() - Math.random()*5*864e5}));
+    feedback = [{id:"f1", by:"d1", kind:"idea", text:"Добавьте голосование за бар — чтобы не спорить в чате полчаса.", at:Date.now()-2*864e5, votes:["d2","d3"]},
+                {id:"f2", by:"d3", kind:"bug", text:"На маленьком телефоне кнопки RSVP налезают друг на друга.", at:Date.now()-864e5, votes:[], status:"wip"}];
     showBanner("<b>Это демо с выдуманными коллегами.</b> Откройте Бухлоплан через бота в Telegram, чтобы видеть общие тусовки, чат и фото.");
   }
   readHash();
@@ -640,7 +674,7 @@ const isPast = ev => (ev.date||"") < today();
 function readHash(){
   const h = location.hash.slice(1);
   if (h.startsWith("ev-")) route.ev = h.slice(3);
-  else if (h === "afisha" || h === "venues" || h === "top") route.sec = h;
+  else if (h === "afisha" || h === "venues" || h === "top" || h === "team") route.sec = h;
 }
 function go(ev, tab){
   route.ev = ev; if (tab) route.tab = tab; pickDel = false;
@@ -665,11 +699,11 @@ function curPhotos(){ return mode === "db" ? photos : (demoPhotos[route.ev] ||= 
 function renderAll(){
   if (mode === "loading") return;
   const ev = route.ev && events.find(e => e.id === route.ev);
-  if (route.ev && !ev && mode === "db" && events.length) { route.ev = null; }
+  if (route.ev && !ev && mode === "db" && (events.length || evLoaded) && !(justCreated.id === route.ev && Date.now() - justCreated.at < 10000)) { route.ev = null; try { history.replaceState(null, "", location.pathname); } catch(e) {} }
   $("#fab").hidden = !!route.ev || !canWrite || route.sec !== "events";
   $("#nav").hidden = !!(route.ev && ev);
   document.querySelectorAll("#nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.sec === route.sec));
-  if (route.ev && ev) renderEvent(ev); else if (route.sec === "afisha") renderAfisha(); else if (route.sec === "venues") renderVenues(); else if (route.sec === "top") renderTop(); else renderFeed();
+  if (route.ev && ev) renderEvent(ev); else if (route.sec === "afisha") renderAfisha(); else if (route.sec === "venues") renderVenues(); else if (route.sec === "top") renderTop(); else if (route.sec === "team") renderTeam(); else renderFeed();
 }
 
 function evCard(ev, i){
@@ -680,6 +714,7 @@ function evCard(ev, i){
     <span class="cov" style="background-image:url(${IMG[ev.cover]||IMG.cov1})"></span>
     <span class="bd">
       <h3>${esc(ev.title)}</h3>
+      <span class="org">${av(ev.by)}<span>Организатор: <b>${esc(nameOf(ev.by))}</b></span></span>
       <span class="chips"><span class="chip ${!past?'hot':''}">${esc(fmtDate(ev))}</span><span class="chip">${esc(ev.place)}</span>${ev.promo?`<span class="chip promo">Акция</span>`:""}</span>
       ${routeOf(ev).length?`<span class="chain">${routeOf(ev).map(s => esc(KINDS[s.kind]?.l || "Этап")).join(" → ")}</span>`:""}
       <span class="row">${g.length?avRow(g):`<span class="m">Пока никто не отметился</span>`}<span class="m num">${g.length} ${plural(g.length,"идёт","идут","идут")}${b.total?` · ~${rub(b.per)} с человека`:""}</span></span>
@@ -736,12 +771,82 @@ document.addEventListener("change", e => {
   writeEv(ev.id, {people:{[ME]:{legend:e.target.value}}});
   if (e.target.value) toast("Легенда выбрана: " + e.target.value);
 });
+const ST_L = {yes:"Иду", late:"Опоздаю", drive:"За рулём", no:"Не иду"};
+function peopleBlock(ev){
+  const ppl = Object.entries(ev.people||{}).filter(([,p]) => p && p.s);
+  if (!ppl.length) return `<p class="note" style="font-size:13px">Пока никто не отметился. Нажмите «Иду», чтобы попасть в список.</p>`;
+  const order = {yes:0, late:1, drive:2, no:3};
+  ppl.sort((a,b) => (a[0]===ev.by?-1:b[0]===ev.by?1:0) || (order[a[1].s]??9) - (order[b[1].s]??9));
+  const goingN = ppl.filter(([,p]) => p.s !== "no").length;
+  const wasOpen = document.querySelector("#hero details.pplbox")?.open;
+  return `<details class="pplbox" ${wasOpen?"open":""}><summary class="pplsum">Участники: ${goingN} ${plural(goingN,"идёт","идут","идут")}${ppl.length>goingN?`, ${ppl.length-goingN} не ${plural(ppl.length-goingN,"идёт","идут","идут")}`:""} — показать список</summary>
+    <ul class="ppl" style="margin-top:8px">${ppl.map(([id,p]) => `<li>${av(id)}<span>${esc(nameOf(id))} ${id===ev.by?'<span class="badge">организатор</span>':""}</span><span class="st ${esc(p.s)}">${ST_L[p.s]||""}</span></li>`).join("")}</ul></details>`;
+}
+
+/* ---------- команда: участники, уведомления, обратная связь ---------- */
+const FB_KINDS = {idea:{l:"Идея", c:"#FFC24A"}, bug:{l:"Ошибка", c:"#FF2E88"}, other:{l:"Другое", c:"#3DE0F0"}};
+const FB_ST = {new:"Новое", wip:"В работе", done:"Сделано", no:"Не будем"};
+async function loadMembers(){
+  if (mode !== "db" || !user?.list) return;
+  try { members = await user.list(); members.forEach(m => { P[m.id] = P[m.id] || {name:m.name, avatarUrl:m.avatarUrl, color:m.color}; }); if (route.sec === "team" && !route.ev) fillTeam(); } catch(e) {}
+}
+function ago(t){
+  if (!t) return "";
+  const d = Math.floor((Date.now() - t) / 864e5);
+  return d <= 0 ? "заходил(а) сегодня" : d === 1 ? "заходил(а) вчера" : `заходил(а) ${d} ${plural(d,"день","дня","дней")} назад`;
+}
+function renderTeam(){
+  if (builtFor !== "team") {
+    $("#view").innerHTML = `<section class="hello"><h1>Наша <em>команда</em></h1><p>Кто в Бухлоплане, уведомления и ваши идеи по развитию приложения.</p></section>
+      <div class="box"><h2>Уведомления</h2><div id="notifBox"></div></div>
+      <div class="box"><h2>Участники</h2><div class="members" id="members"></div></div>
+      <div class="box"><h2>Обратная связь</h2>
+        ${canWrite?`<form class="fbform" id="fbForm">
+          <div class="opts" id="fbKinds">${Object.entries(FB_KINDS).map(([k,v]) => `<button type="button" data-fbkind="${k}" aria-pressed="${fbKind===k}">${v.l}</button>`).join("")}</div>
+          <textarea id="fbText" maxlength="1000" placeholder="Что добавить или улучшить? Чем подробнее, тем лучше." required></textarea>
+          <div class="acts"><button class="btn coral" type="submit">Отправить</button></div></form>`:""}
+        <div class="eyebrow" style="margin-top:6px">Предложения коллег</div>
+        <div class="promos" id="fbList"></div></div>`;
+    builtFor = "team";
+  }
+  fillTeam();
+}
+function fillTeam(){
+  if (builtFor !== "team") return;
+  const muted = !!prefs.mute;
+  $("#notifBox").innerHTML = mode === "db"
+    ? `<div class="toggle"><span>${muted ? "Уведомления в Telegram <b>выключены</b>" : "Бот присылает уведомления о новых тусовках, сообщениях в чате и отметках «Иду»"}</span>
+        <button class="btn small ${muted?"coral":""}" data-act="mute">${muted?"Включить":"Выключить"}</button></div>`
+    : `<p style="margin:0;color:var(--muted);font-size:14px">В Telegram бот присылает уведомления о новых тусовках, сообщениях и отметках «Иду». В демо уведомлений нет.</p>`;
+  const cnt = id => events.filter(e => e.by === id).length;
+  const list = members.slice().sort((a,b) => (b.seen||0) - (a.seen||0));
+  $("#members").innerHTML = list.length ? list.map(m => `<div class="member">${av(m.id)}<span class="nm">${esc(m.id===ME ? (m.name||"Вы") + " (вы)" : (m.name||"Коллега"))}<small>${esc([ago(m.seen), cnt(m.id) ? `организовал(а) ${cnt(m.id)} ${plural(cnt(m.id),"тусовку","тусовки","тусовок")}` : ""].filter(Boolean).join(" · "))}</small></span>${m.admin?'<span class="badge">админ</span>':""}</div>`).join("")
+    : `<p style="margin:0;color:var(--muted)">Пока никого. Участники появятся, когда откроют приложение через бота.</p>`;
+  $("#members").insertAdjacentHTML("afterbegin", `<p style="margin:0 0 4px;font-size:13px;color:var(--muted)">Всего: ${list.length}</p>`);
+  resolve(feedback.map(f => f.by));
+  const fl = feedback.slice().sort((a,b) => (b.votes||[]).length - (a.votes||[]).length || (b.at||0) - (a.at||0));
+  $("#fbList").innerHTML = fl.length ? fl.map(f => { const k = FB_KINDS[f.kind] || FB_KINDS.other, voted = (f.votes||[]).includes(ME), mine = f.by === ME;
+    return `<article class="fbitem" style="--c:${k.c}"><div class="ft"><span class="org">${av(f.by)}<b style="color:var(--ink)">${esc(nameOf(f.by))}</b> · ${esc(k.l)}</span><span>${esc(new Date(f.at||0).toLocaleDateString("ru-RU",{day:"numeric",month:"short"}))}${f.status && f.status!=="new"?` · <span class="badge">${esc(FB_ST[f.status]||"")}</span>`:""}</span></div>
+      <p>${esc(f.text)}</p>
+      <div class="ft"><div class="acts">${canWrite?`<button class="vote" data-vote="${esc(f.id)}" aria-pressed="${voted}">👍 ${(f.votes||[]).length}</button>`:`👍 ${(f.votes||[]).length}`}
+        ${IS_ADMIN?`<select data-fbst="${esc(f.id)}" style="background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:3px 6px;font-size:12px">${Object.entries(FB_ST).map(([s,l]) => `<option value="${s}" ${(f.status||"new")===s?"selected":""}>${l}</option>`).join("")}</select>`:""}</div>
+        ${(mine||IS_ADMIN)&&canWrite?`<button class="link" style="font-size:12px" data-fbdel="${esc(f.id)}">Удалить</button>`:""}</div></article>`; }).join("")
+    : `<p style="margin:0;color:var(--muted)">Предложений пока нет — будьте первым.</p>`;
+}
+async function sendFeedback(text){
+  text = text.trim(); if (!text) return;
+  const f = {by:ME, kind:fbKind, text:text.slice(0,1000), at:Date.now(), votes:[], status:"new"};
+  if (mode === "demo") { feedback.unshift({id:"f"+f.at, ...f}); fillTeam(); toast("Спасибо! Предложение добавлено"); return true; }
+  try { await db.collection("feedback").add(f); notify({type:"feedback", text:f.text, kind:FB_KINDS[f.kind].l}); toast("Спасибо! Предложение отправлено"); return true; } catch(e){ failed(e); return false; }
+}
+
 function renderHero(ev){
   const wasOpen = !!document.querySelector("#hero details.legends[open]");
   setTimeout(() => { if (wasOpen) document.querySelector("#hero details.legends")?.setAttribute("open",""); }, 0);
   const g = going(ev), mine = ev.people?.[ME]?.s;
   resolve(g.concat(ev.by));
-  const canDel = canWrite && ev.by === ME;
+  const canDel = canWrite && (ev.by === ME || IS_ADMIN);
+  resolve(Object.keys(ev.people||{}));
   $("#hero").innerHTML = `<div class="cov" style="background-image:url(${IMG[ev.cover]||IMG.cov1})"></div>
     <div class="bd">
       <h1>${esc(ev.title)}</h1>
@@ -749,14 +854,15 @@ function renderHero(ev){
       ${ev.promo?`<div class="chips"><span class="chip promo">Акция: ${esc(ev.promo.title)}</span>${safeUrl(ev.promo.url)?`<a class="chip" href="${esc(safeUrl(ev.promo.url))}" target="_blank" rel="noopener">Условия на сайте</a>`:""}</div>`:""}
       ${ev.note?`<p class="note">${esc(ev.note)}</p>`:""}
       ${routeOf(ev).length?`<div class="chain" style="font-size:13px">План: ${routeOf(ev).map(s => esc(stopName(s))).join(" → ")}</div>`:""}
-      <div class="meta"><span>Организатор: ${esc(nameOf(ev.by))}</span><span>${g.length?avRow(g,6):""}</span></div>
+      <div class="meta"><span class="org">${av(ev.by)}<span>Организатор: <b style="color:var(--on-plum)">${ev.by === ME ? "вы" : esc(nameOf(ev.by))}</b></span></span><span>${g.length?avRow(g,6):""}</span></div>
+      ${peopleBlock(ev)}
       ${canWrite?`<div class="rsvp" role="group" aria-label="Ваше участие">${RSVP.map(([k,l]) => `<button data-rsvp="${k}" aria-pressed="${mine===k}">${l}</button>`).join("")}</div>`:""}
       ${canWrite && ["yes","late","drive"].includes(mine) ? `<div class="legend"><label for="legendSel">Легенда для дома
         <select id="legendSel"><option value="">Выберите легенду</option>${LEGENDS.map(l => `<option ${ev.people?.[ME]?.legend === l ? "selected" : ""}>${esc(l)}</option>`).join("")}</select></label>
         <small>${ev.people?.[ME]?.legend ? "Коллеги видят вашу легенду и не проговорятся." : "Обязательно: без легенды домой не отпустят."}</small></div>` : ""}
       ${legendsList(ev)}
       ${canWrite && !ev.finished && !isPast(ev) ? `<div class="finish"><button class="btn small" style="background:rgba(0,0,0,.25);color:var(--on-plum);border-color:rgba(251,233,240,.2)" data-act="finishEv">Завершить тусовку и подвести итоги</button></div>` : ""}
-      ${canDel?`<div class="confirm" id="delWrap"><button class="link" style="color:var(--on-plum-muted)" data-act="askdel">Удалить тусовку</button></div>`:""}
+      ${canDel?`<div class="confirm" id="delWrap"><button class="btn small ghost delev" style="color:var(--on-plum);border-color:rgba(251,233,240,.3)" data-act="askdel">🗑 Удалить тусовку${ev.by !== ME ? " (как админ)" : ""}</button></div>`:""}
     </div>`;
 }
 
@@ -1135,13 +1241,13 @@ function toast(t){ const el = $("#toast"); el.textContent = t; el.hidden = false
 
 async function createEvent(data){
   if (mode === "demo") { const id = "e"+Date.now(); events.push({id, ...data}); go(id, "plan"); return; }
-  try { const ref = await db.collection("events").add(data); go(ref.id, "plan"); } catch(e){ failed(e); }
+  try { const ref = await db.collection("events").add(data); justCreated = {id:ref.id, at:Date.now()}; notify({type:"new_event", eventId:ref.id}); go(ref.id, "plan"); } catch(e){ failed(e); }
 }
 async function sendMsg(text){
   text = text.trim(); if (!text) return;
   const m = {by:ME, text:text.slice(0,1000), at:Date.now()};
   if (mode === "demo") { curMsgs().push({id:"m"+m.at, ...m}); fillChat(); return; }
-  try { await db.collection(`events/${route.ev}/msgs`).add(m); } catch(e){ failed(e); }
+  try { await db.collection(`events/${route.ev}/msgs`).add(m); notify({type:"chat", eventId:route.ev, text:m.text}); } catch(e){ failed(e); }
 }
 function compress(file, max, q){
   return new Promise((res, rej) => {
@@ -1190,7 +1296,21 @@ document.addEventListener("click", async e => {
   else if (b.dataset.act === "home") go(null);
   else if (b.dataset.act === "new" || b.id === "fab") openSheet();
   else if (b.dataset.tab) { pickDel = false; route.tab = b.dataset.tab; builtFor = null; renderAll(); }
-  else if (b.dataset.rsvp && ev) { const cur = ev.people?.[ME]?.s; writeEv(ev.id, {people:{[ME]:{s: cur === b.dataset.rsvp ? "no" : b.dataset.rsvp}}}); }
+  else if (b.dataset.rsvp && ev) { const cur = ev.people?.[ME]?.s; const ns = cur === b.dataset.rsvp ? "no" : b.dataset.rsvp; writeEv(ev.id, {people:{[ME]:{s: ns}}}); if (ev.by !== ME) notify({type:"rsvp", eventId:ev.id, status:ns}); }
+  else if (b.dataset.fbkind) { fbKind = b.dataset.fbkind; document.querySelectorAll("#fbKinds button").forEach(x => x.setAttribute("aria-pressed", x.dataset.fbkind === fbKind)); }
+  else if (b.dataset.vote) {
+    const f = feedback.find(x => x.id === b.dataset.vote); if (!f) return;
+    const votes = (f.votes||[]).includes(ME) ? f.votes.filter(x => x !== ME) : [...(f.votes||[]), ME];
+    if (mode === "demo") { f.votes = votes; fillTeam(); } else db.doc("feedback/" + f.id).update({votes}).catch(failed);
+  }
+  else if (b.dataset.fbdel) {
+    if (!confirm("Удалить предложение?")) return;
+    if (mode === "demo") { feedback = feedback.filter(x => x.id !== b.dataset.fbdel); fillTeam(); } else db.doc("feedback/" + b.dataset.fbdel).delete().catch(failed);
+  }
+  else if (b.dataset.act === "mute") {
+    const mute = !prefs.mute;
+    if (mode === "db") db.doc("prefs/" + ME).set({...prefs, mute}).then(() => toast(mute ? "Уведомления выключены" : "Уведомления включены")).catch(failed);
+  }
   else if (b.dataset.lvl && ev) { const l = +b.dataset.lvl; const cur = ev.people?.[ME]; writeEv(ev.id, {people:{[ME]:{l, s: cur?.s || "yes"}}}); }
   else if (b.dataset.dq && ev) { const n = Math.max(0, Math.min(99, (ev.drinks?.[b.dataset.dq]||0) + +b.dataset.d)); writeEv(ev.id, {drinks:{[b.dataset.dq]:n}}); }
   else if (b.dataset.fq && ev) { const n = Math.max(0, Math.min(99, (ev.food?.[b.dataset.fq]||0) + +b.dataset.d)); writeEv(ev.id, {food:{[b.dataset.fq]:n}}); }
@@ -1230,13 +1350,16 @@ document.addEventListener("click", async e => {
   else if (b.dataset.act === "nodel") renderHero(ev);
   else if (b.dataset.act === "dodel" && ev) {
     if (mode === "demo") { events = events.filter(x => x !== ev); go(null); return; }
+    try { if (window.__notify) await window.__notify({type:"cancel", eventId:ev.id}); } catch(x) {}
     try { await db.doc("events/"+ev.id).delete(); go(null); toast("Тусовка удалена"); } catch(err){ failed(err); }
   }
 });
 document.addEventListener("submit", e => {
   if (e.target.id === "composer") { e.preventDefault(); const i = $("#msgIn"); sendMsg(i.value); i.value = ""; i.focus(); }
+  if (e.target.id === "fbForm") { e.preventDefault(); const t = $("#fbText"); sendFeedback(t.value).then(ok => { if (ok) t.value = ""; }); }
 });
 document.addEventListener("change", e => {
+  if (e.target.dataset && e.target.dataset.fbst) { const id = e.target.dataset.fbst; if (mode === "demo") { const f = feedback.find(x => x.id === id); if (f) f.status = e.target.value; fillTeam(); } else db.doc("feedback/" + id).update({status:e.target.value}).catch(failed); return; }
   if (e.target.id === "fileIn" && e.target.files.length) { addPhotos([...e.target.files].slice(0,10)); e.target.value = ""; }
 });
 

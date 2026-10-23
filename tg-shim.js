@@ -37,6 +37,12 @@
     });
   }
 
+  try {
+    const qs = new URLSearchParams(location.search);
+    const evId = qs.get("ev") || ((TG && TG.initDataUnsafe && TG.initDataUnsafe.start_param || "").startsWith("ev-") ? TG.initDataUnsafe.start_param.slice(3) : "");
+    if (evId) history.replaceState(null, "", location.pathname + "#ev-" + evId);
+  } catch (e) {}
+
   window.__blobUrl = (id) => (id && /^https?:/.test(id)) ? id
     : `${CFG.SUPABASE_URL}/storage/v1/object/public/photos/${id}`;
 
@@ -181,6 +187,13 @@
     async id() { await ready; return me.id; },
     async can() { try { await ready; return true; } catch (e) { return false; } },
     async me() { await ready; return { name: me.name, avatarUrl: me.avatarUrl, color: me.color }; },
+    async isAdmin() { await ready; return !!me.admin; },
+    async list() {
+      await getToken();
+      const { data, error } = await sb.from("profiles").select("id,name,avatar_url,color,updated_at,is_admin").order("updated_at", { ascending: false }).limit(500);
+      if (error) throw err(error);
+      return (data || []).map((p) => ({ id: p.id, name: p.name, avatarUrl: p.avatar_url, color: p.color, seen: Date.parse(p.updated_at) || 0, admin: !!p.is_admin }));
+    },
     async profiles(ids) {
       await getToken();
       const { data } = await sb.from("profiles").select("id,name,avatar_url,color").in("id", ids);
@@ -201,6 +214,18 @@
       return { id: path };
     },
     async delete(id) { await getToken(); await sb.storage.from("photos").remove([id]); },
+  };
+
+  // Уведомления в Telegram через функцию notify
+  window.__notify = async (payload) => {
+    try {
+      const t = await getToken();
+      await fetch(`${CFG.SUPABASE_URL}/functions/v1/${CFG.NOTIFY_FUNCTION || "notify"}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", apikey: CFG.SUPABASE_ANON_KEY, Authorization: "Bearer " + t },
+        body: JSON.stringify(payload),
+      });
+    } catch (e) { /* уведомление не критично */ }
   };
 
   window.claude = {
