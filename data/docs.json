@@ -1,0 +1,2522 @@
+[
+ {
+  "collection": "promos",
+  "id": "16tonn-arbat-halloween",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "30 октября — Хеллоуин с DJ Barker, 31 октября — «Стальные питоны» и DJ Frants на площадке «16 тонн» на Арбате.",
+   "from": "2026-10-30",
+   "hot": false,
+   "metro": "",
+   "price": "",
+   "time": "20:00",
+   "title": "Хеллоуин на Арбате: DJ Barker и «Стальные питоны»",
+   "until": "2026-10-31",
+   "url": "https://www.16tons.ru/",
+   "venue": "16 тонн",
+   "when": "30–31 октября, с 20:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "16tonn-halloween",
+  "data": {
+   "address": "Пресненский Вал, 6, стр. 1",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "30 и 31 октября «Кибертыква» с 20:00 на 1-м этаже, с 23:00 Бал удивительных существ на 2-м. Вход свободный, столы с депозитом 1 000–4 000 ₽.",
+   "from": "2026-10-30",
+   "hot": true,
+   "metro": "Улица 1905 года",
+   "price": "Вход 0 ₽, столы от 1 000 ₽",
+   "time": "20:00",
+   "title": "Хэллоуин: свободный вход",
+   "until": "2026-10-31",
+   "url": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-klube-16-tonn/",
+   "venue": "16 тонн",
+   "when": "30–31 октября, с 20:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "16tonn-high-resistance",
+  "data": {
+   "address": "Пресненский Вал, 6, стр. 1, 2-й этаж",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [
+    6
+   ],
+   "desc": "Электронная вечеринка High Resistance в клубе «16 тонн».",
+   "from": "2026-10-24",
+   "hot": false,
+   "metro": "Улица 1905 года",
+   "price": "Билеты от 900 ₽",
+   "time": "21:00",
+   "title": "High Resistance: электронная вечеринка",
+   "until": "2026-10-24",
+   "url": "https://www.afisha.ru/msk/club/16-tonn-12838/",
+   "venue": "16 тонн",
+   "when": "Сб 24 октября, 21:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "16tonn-kvinta-costume",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [
+    4
+   ],
+   "desc": "Костюмированная вечеринка группы КвинтА на площадке «16 тонн» на Арбате.",
+   "from": "2026-10-29",
+   "hot": false,
+   "metro": "",
+   "price": "",
+   "time": "20:00",
+   "title": "КвинтА: костюмированная вечеринка",
+   "until": "2026-10-29",
+   "url": "https://www.16tons.ru/",
+   "venue": "16 тонн",
+   "when": "Чт 29 октября, 20:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "16tonn-rockykaraoke",
+  "data": {
+   "address": "Пресненский Вал, 6, стр. 1",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [
+    6
+   ],
+   "desc": "Рок-караоке вечер на Пресне — можно петь всей компанией.",
+   "from": "2026-10-24",
+   "hot": true,
+   "metro": "Улица 1905 года",
+   "price": "от 1 500 ₽ (предпродажа)",
+   "time": "20:00",
+   "title": "РокиКараоке. Unplugged",
+   "until": "2026-10-24",
+   "url": "https://www.16tons.ru/",
+   "venue": "16 тонн",
+   "when": "Сб 24 октября, 20:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "16tonn-traffic-free",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [
+    5
+   ],
+   "desc": "Концерт Moscow Traffic Band на площадке «16 тонн» на Арбате, вход свободный.",
+   "from": "2026-10-23",
+   "hot": true,
+   "metro": "",
+   "price": "Вход свободный",
+   "time": "20:30",
+   "title": "Moscow Traffic Band: вход свободный",
+   "until": "2026-10-23",
+   "url": "https://www.16tons.ru/",
+   "venue": "16 тонн",
+   "when": "Пт 23 октября, 20:30"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "16tonn-yesquire",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Танцевальная вечеринка на площадке «16 тонн» на Арбате. Цена на сайте не указана, есть бронь стола.",
+   "from": "2026-10-24",
+   "hot": false,
+   "metro": "",
+   "price": "",
+   "time": "20:30",
+   "title": "YeSquire: танцевальная вечеринка",
+   "until": "2026-10-24",
+   "url": "https://www.16tons.ru/",
+   "venue": "16 тонн",
+   "when": "Сб 24 октября, 20:30"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "aurora-company-6",
+  "data": {
+   "address": "Петровские линии, 2/18",
+   "cat": "strip",
+   "checked": "2026-10-21",
+   "days": [],
+   "desc": "Компании от 6 человек скидка 20% на любую бутылку, нужно предварительное согласование.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "Вход 3 000 ₽, −20% на бутылку",
+   "time": "21:00",
+   "title": "−20% на бутылку компании от 6",
+   "until": null,
+   "url": "https://club-aurora.ru/",
+   "venue": "Aurora Men's Club",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "base-free-bar-halloween",
+  "data": {
+   "address": "ул. Орджоникидзе, 11с1",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Хэллоуин с тематическим оформлением и шоу; напитки всю ночь бесплатно после покупки билета.",
+   "from": "2026-10-31",
+   "hot": true,
+   "metro": "",
+   "price": "Билет 2 099–5 499 ₽ (бар включён)",
+   "time": "23:55",
+   "title": "Free Bar Atlanta Horrorland",
+   "until": "2026-10-31",
+   "url": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-glavclub/",
+   "venue": "Base",
+   "when": "Сб 31 октября, с 23:55"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "beseder-bachelor-15",
+  "data": {
+   "address": "Оружейный пер., 15А",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 15% на организацию мальчишника, постоянная акция по данным Zoon.",
+   "from": null,
+   "hot": false,
+   "metro": "Маяковская",
+   "price": "−15%",
+   "time": "",
+   "title": "Мальчишник «Проводи холостяка» −15%",
+   "until": null,
+   "url": "https://zoon.ru/msk/offers/night_clubs/type/striptiz/",
+   "venue": "BESEDER",
+   "when": "По брони"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "dex-any-act-1023",
+  "data": {
+   "address": "Шарикоподшипниковская, 13, стр. 32",
+   "cat": "club",
+   "checked": "2026-10-22",
+   "days": [
+    5
+   ],
+   "desc": "Вторая авторская вечеринка Any Act в клубе Dex.",
+   "from": "2026-10-23",
+   "hot": false,
+   "metro": "Дубровка",
+   "price": "от 2 500 ₽",
+   "time": "23:00",
+   "title": "Any Act Night",
+   "until": "2026-10-23",
+   "url": "https://daily.afisha.ru/cities/36913-shodit-na-stendap-i-poznakomitsya-s-markom-eydelshteynom-chem-zanyatsya-v-moskve-v-oktyabre/",
+   "venue": "Dex",
+   "when": "Пт 23 октября, с 23:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "dex-halloween",
+  "data": {
+   "address": "Шарикоподшипниковская, 13, стр. 32",
+   "cat": "club",
+   "checked": "2026-10-22",
+   "days": [
+    6
+   ],
+   "desc": "Традиционная хэллоуинская вечеринка до утра.",
+   "from": "2026-10-31",
+   "hot": false,
+   "metro": "Дубровка",
+   "price": "от 2 500 ₽",
+   "time": "23:00",
+   "title": "Dex[ter]: хэллоуинская вечеринка",
+   "until": "2026-10-31",
+   "url": "https://daily.afisha.ru/cities/36913-shodit-na-stendap-i-poznakomitsya-s-markom-eydelshteynom-chem-zanyatsya-v-moskve-v-oktyabre/",
+   "venue": "Dex",
+   "when": "Сб 31 октября, 23:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "echo-weekdays",
+  "data": {
+   "address": "Таганская пл., 12/4, стр. 5; М. Путинковский пер., 1/2, стр. 1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    7,
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "С воскресенья по четверг без депозита, при онлайн-брони скидка 10% на меню. Скидки по акциям не суммируются.",
+   "from": null,
+   "hot": false,
+   "metro": "Таганская / Пушкинская",
+   "price": "Общий зал 450 ₽ (пн–ср), 600 ₽ (чт–вс)",
+   "time": "17:00",
+   "title": "Без депозита и −10% на меню",
+   "until": null,
+   "url": "https://www.echo-karaoke.ru/",
+   "venue": "Караоке «Эхо»",
+   "when": "Вс–Чт, 17:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "egoist-free-entry",
+  "data": {
+   "address": "ул. Большая Садовая, 5",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Бесплатный вход при бронировании стола на сайте клуба.",
+   "from": null,
+   "hot": true,
+   "metro": "Маяковская",
+   "price": "Вход 0 ₽ по брони",
+   "time": "20:00",
+   "title": "Бесплатный вход при брони на сайте",
+   "until": null,
+   "url": "https://egostrip.ru/",
+   "venue": "Эгоист",
+   "when": "Ежедневно, 20:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "evgenich-birthday-30",
+  "data": {
+   "address": "Цветной б-р, 11, стр. 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "30% вс–чт и 20% пт–сб на барное меню за 7 дней до и после ДР. Нужны бронь стола и участие в программе лояльности; не действует на концертах.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "до −30% на бар",
+   "time": "",
+   "title": "День рождения: до −30% на бар",
+   "until": null,
+   "url": "https://evgenich.bar/",
+   "venue": "Евгенич",
+   "when": "±7 дней от дня рождения"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "evgenich-cheburek",
+  "data": {
+   "address": "Цветной б-р, 11, стр. 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "С понедельника по четверг до 18:00 чебурек и бокал пенного за 330 ₽.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "330 ₽",
+   "time": "12:00",
+   "title": "Чебурек с пивом за 330 ₽",
+   "until": null,
+   "url": "https://evgenich.bar/",
+   "venue": "Евгенич",
+   "when": "Пн–Чт, до 18:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "evgenich-narodnoe",
+  "data": {
+   "address": "Цветной б-р, 11, стр. 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    7,
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "С воскресенья по четверг народное караоке; по вторникам «Музлото 90-х».",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "",
+   "time": "",
+   "title": "Народное караоке",
+   "until": null,
+   "url": "https://evgenich.bar/",
+   "venue": "Евгенич",
+   "when": "Вс–Чт"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "evgenich-wed-nastoyki",
+  "data": {
+   "address": "Цветной б-р, 11, стр. 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    3
+   ],
+   "desc": "Каждую среду скидка 20% на все настойки в караоке-рюмочной.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "−20% на настойки",
+   "time": "",
+   "title": "Среда: −20% на все настойки",
+   "until": null,
+   "url": "https://evgenich.bar/",
+   "venue": "Евгенич",
+   "when": "Ср, 12:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "fantomas",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Руфтоп с баром и ночным клубом. Цена на gdebar — ориентир, не стоимость входа.",
+   "from": null,
+   "hot": false,
+   "metro": "Кропоткинская",
+   "price": "Ценовой ориентир до 1 000 ₽",
+   "time": "22:00",
+   "title": "Вечеринки на крыше в центре",
+   "until": null,
+   "url": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "venue": "Fantomas Rooftop",
+   "when": "По афише"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "glastonberry-halloween-1027",
+  "data": {
+   "address": "1-я Дубровская ул., 13А, стр. 1",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Вечер сказочных злодеев: Морганa и королева Гримхильда в исполнении актрис мюзиклов, живой звук.",
+   "from": "2026-10-27",
+   "hot": false,
+   "metro": "",
+   "price": "Билеты 700–3 000 ₽",
+   "time": "19:15",
+   "title": "Halloween Party 2026",
+   "until": "2026-10-27",
+   "url": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-glastonberry/",
+   "venue": "Glastonberry",
+   "when": "Вт 27 октября, 19:15"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "hunters-birthday-20",
+  "data": {
+   "address": "Б. Саввинский пер., 12, стр. 7",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Именинникам скидка 20% на кухню и бар; условия (документ, бронь) уточняйте в клубе.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "−20% на еду и бар",
+   "time": "21:00",
+   "title": "Именинникам −20% на еду и бар",
+   "until": null,
+   "url": "https://club-hunters.ru/",
+   "venue": "Hunters",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "hunters-company-6",
+  "data": {
+   "address": "Б. Саввинский пер., 12, стр. 7",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Компании от 6 человек скидка 20% на любую бутылку, нужно предварительное согласование.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "Вход 3 000 ₽, −20% на бутылку",
+   "time": "21:00",
+   "title": "−20% на бутылку компании от 6",
+   "until": null,
+   "url": "https://club-hunters.ru/",
+   "venue": "Hunters",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "hunters-taxi",
+  "data": {
+   "address": "Б. Саввинский пер., 12, стр. 7",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Бесплатное такси между клубами сети, если за ночь посещаете несколько.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "",
+   "time": "21:00",
+   "title": "Бесплатное такси между клубами",
+   "until": null,
+   "url": "https://club-hunters.ru/",
+   "venue": "Hunters",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "izi-girls-bar",
+  "data": {
+   "address": "Басманный пер., 8, стр. 1",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "days": [
+    5,
+    6
+   ],
+   "desc": "На многих вечеринках девушкам бесплатный бар в ночное время; условия уточняйте по афише клуба.",
+   "from": null,
+   "hot": false,
+   "metro": "Комсомольская",
+   "price": "",
+   "time": "23:00",
+   "title": "Бесплатный бар для девушек",
+   "until": null,
+   "url": "https://www.kp.ru/afisha/msk/obzory/moj-gorod/luchshie-nochnye-kluby-moskvy/",
+   "venue": "Izi",
+   "when": "Пт–Сб, 23:00–06:30"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "izi-halloween",
+  "data": {
+   "address": "Басманный пер., 8, стр. 1",
+   "cat": "club",
+   "checked": "2026-10-22",
+   "days": [
+    5,
+    6
+   ],
+   "desc": "Хэллоуинские вечеринки в клубе Izi; детали и цены уточняйте у клуба.",
+   "from": "2026-10-30",
+   "hot": false,
+   "metro": "Комсомольская",
+   "price": "",
+   "time": "",
+   "title": "Хэллоуин в клубе Izi",
+   "until": "2026-10-31",
+   "url": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-moskve/",
+   "venue": "Izi",
+   "when": "30–31 октября"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-mon-sing",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    1
+   ],
+   "desc": "По понедельникам снимаются запреты на песни, которые обычно нельзя петь. Подробности у менеджера.",
+   "from": null,
+   "hot": false,
+   "metro": "Курская",
+   "price": "Депозит 1 000 ₽",
+   "time": "20:00",
+   "title": "Понедельник: «Пой, что хочешь!»",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Пн, 20:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-sun-50",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    7
+   ],
+   "desc": "По воскресеньям компаниям от 6 человек скидка 50% на депозит.",
+   "from": null,
+   "hot": true,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "−50% депозита (обычно 2 000 ₽)",
+   "time": "18:00",
+   "title": "−50% на депозит компании от 6",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Воскресенье, 18:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-thu-happy",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    4
+   ],
+   "desc": "По четвергам скидка 15% на все коктейли.",
+   "from": null,
+   "hot": false,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "−15%",
+   "time": "20:00",
+   "title": "Счастливые часы: −15% на коктейли",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Чт, 20:00–00:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-tue-men",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    2
+   ],
+   "desc": "Каждый вторник мужчинам скидка 10% на весь крепкий алкоголь.",
+   "from": null,
+   "hot": false,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "−10% на крепкий алкоголь",
+   "time": "",
+   "title": "Вторник: −10% на крепкое для мужчин",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Каждый вторник"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-vip-day",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Ежедневно с 12:00 до 18:00 депозит за VIP-комнату (до 15 человек) на 5 часов — 10 000 ₽.",
+   "from": null,
+   "hot": true,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "Депозит 10 000 ₽ за 5 часов",
+   "time": "12:00",
+   "title": "VIP-комната днём: 5 часов за 10 000 ₽",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Ежедневно, 12:00–18:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-vip-night",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "VIP-комната до 15 человек без очереди; с 01:00 скидка 50% на депозит.",
+   "from": null,
+   "hot": true,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "−50% депозита",
+   "time": "01:00",
+   "title": "VIP-комната: −50% депозита после 01:00",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Каждый день, с 01:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-wed-cosmo",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    3
+   ],
+   "desc": "Каждую среду девушкам дарят коктейль «Космополитен».",
+   "from": null,
+   "hot": false,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "Коктейль в подарок",
+   "time": "",
+   "title": "Среда: «Космополитен» девушкам в подарок",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Каждую среду"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-weekend-show",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    5,
+    6
+   ],
+   "desc": "По пятницам и субботам музыкальная программа с ведущим, конкурсы и призы.",
+   "from": null,
+   "hot": false,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "",
+   "time": "18:00",
+   "title": "Пт–Сб: программа с ведущим и призами",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Пт–Сб, с 18:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jam-wine-2plus1",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "При покупке двух бутылок вина третья бесплатно, ассортимент уточняйте у официантов.",
+   "from": null,
+   "hot": false,
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "price": "2+1",
+   "time": "",
+   "title": "Вино 2+1",
+   "until": null,
+   "url": "https://karaoke-jam.ru/",
+   "venue": "Караоке-клуб «Джем»",
+   "when": "Каждый день"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "jao-da",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [
+    5,
+    6
+   ],
+   "desc": "Клуб с концертами и танцами до утра.",
+   "from": null,
+   "hot": false,
+   "metro": "Китай-город",
+   "price": "Ценовой ориентир 1 000–1 500 ₽",
+   "time": "23:30",
+   "title": "Ночные вечеринки по выходным",
+   "until": null,
+   "url": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "venue": "Китайский лётчик Джао Да",
+   "when": "Пт–Сб, 23:30–05:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "laski-prereg",
+  "data": {
+   "address": "Рочдельская, 15, стр. 25–25А",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "days": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "desc": "Вход на танцпол по предварительной регистрации, средний чек около 5 000 ₽.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "Вход по предрегистрации",
+   "time": "21:00",
+   "title": "Вход на танцпол по предрегистрации",
+   "until": null,
+   "url": "https://www.kp.ru/afisha/msk/obzory/moj-gorod/luchshie-nochnye-kluby-moskvy/",
+   "venue": "LASKI",
+   "when": "Ср, Чт, Вс 21:00–06:00; Пт–Сб 21:00–09:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "liberty-kg",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [
+    4,
+    5,
+    6
+   ],
+   "desc": "Ночные вечеринки три дня в неделю.",
+   "from": null,
+   "hot": false,
+   "metro": "Китай-город",
+   "price": "Ценовой ориентир 1 000–1 500 ₽",
+   "time": "22:00",
+   "title": "Танцы до шести утра",
+   "until": null,
+   "url": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "venue": "Либерти на Китай-городе",
+   "when": "Чт–Сб, 22:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "macho-bachelor-11000",
+  "data": {
+   "address": "Певческий пер., 4, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Пакет «1000 и одна ночь»: виски 150 мл, кальян, 2 безалкогольных напитка, трек в подарок и шоу-программа.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "11 000 ₽",
+   "time": "21:00",
+   "title": "Мальчишник: пакет за 11 000 ₽",
+   "until": null,
+   "url": "https://machoclub.ru/",
+   "venue": "Macho Club",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "macho-free-entry",
+  "data": {
+   "address": "Певческий пер., 4, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Вход бесплатный для всех гостей ежедневно; при заказе стола онлайн скидка 15%.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "Вход 0 ₽",
+   "time": "21:00",
+   "title": "Бесплатный вход каждый день",
+   "until": null,
+   "url": "https://machoclub.ru/",
+   "venue": "Macho Club",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "macho-table-15",
+  "data": {
+   "address": "Певческий пер., 4, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 15% при заказе стола через форму на сайте клуба; вход бесплатный.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "−15%",
+   "time": "21:00",
+   "title": "−15% при брони стола через сайт",
+   "until": null,
+   "url": "https://machoclub.ru/",
+   "venue": "Macho Club",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "moskva-kurskaya",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [
+    4,
+    5,
+    6
+   ],
+   "desc": "Один из самых бюджетных клубов в центре.",
+   "from": null,
+   "hot": true,
+   "metro": "Курская",
+   "price": "Ценовой ориентир 700–1 000 ₽",
+   "time": "21:00",
+   "title": "Недорогой вход с четверга",
+   "until": null,
+   "url": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "venue": "Клуб «Москва» на Курской",
+   "when": "Чт–Сб, с 20:00 до последнего гостя"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "moskvich-bachelor",
+  "data": {
+   "address": "Фролов пер., 1, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Бесплатный вход виновнику торжества, −15% на барное меню, карта Gold и подарок от клуба.",
+   "from": null,
+   "hot": false,
+   "metro": "Тургеневская / Чистые пруды",
+   "price": "Вход 0 ₽ жениху, −15% на бар",
+   "time": "21:00",
+   "title": "Мальчишник: вход виновнику бесплатно",
+   "until": null,
+   "url": "https://moscvichclub.ru/",
+   "venue": "Москвич",
+   "when": "Ежедневно, 21:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "moskvich-birthday",
+  "data": {
+   "address": "Фролов пер., 1, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Имениннику бесплатный вход, −15% на бар и карта Gold за 3 дня до и 3 дня после ДР по документу.",
+   "from": null,
+   "hot": false,
+   "metro": "Тургеневская / Чистые пруды",
+   "price": "Вход 0 ₽ имениннику",
+   "time": "21:00",
+   "title": "День рождения: вход 0 ₽ и −15%",
+   "until": null,
+   "url": "https://moscvichclub.ru/",
+   "venue": "Москвич",
+   "when": "±3 дня от дня рождения"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "most-bachelor",
+  "data": {
+   "address": "Тверская, 12, стр. 2 / Рождественка, 6",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 10% на всё меню кухни и бара.",
+   "from": null,
+   "hot": false,
+   "metro": "Пушкинская / Кузнецкий Мост",
+   "price": "−10%",
+   "time": "",
+   "title": "−10% на девичник и мальчишник",
+   "until": null,
+   "url": "https://most-karaoke.ru/promo/",
+   "venue": "Караоке «Мост»",
+   "when": "По брони"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "most-birthday-15",
+  "data": {
+   "address": "Тверская, 12, стр. 2 / Рождественка, 6",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 15% на всё меню кухни и бара в день рождения и 7 дней после.",
+   "from": null,
+   "hot": false,
+   "metro": "Пушкинская / Кузнецкий Мост",
+   "price": "−15%",
+   "time": "",
+   "title": "−15% на день рождения",
+   "until": null,
+   "url": "https://most-karaoke.ru/promo/",
+   "venue": "Караоке «Мост»",
+   "when": "ДР + 7 дней"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "most-happy-hours",
+  "data": {
+   "address": "Тверская, 12, стр. 2 / Рождественка, 6",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "Скидка 10% на кухню и бар с 18:00 до 21:00.",
+   "from": null,
+   "hot": false,
+   "metro": "Пушкинская / Кузнецкий Мост",
+   "price": "−10%",
+   "time": "18:00",
+   "title": "Счастливые часы −10%",
+   "until": null,
+   "url": "https://most-karaoke.ru/promo/",
+   "venue": "Караоке «Мост»",
+   "when": "Пн–Чт, 18:00–21:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "most-ladies-tue",
+  "data": {
+   "address": "Тверская, 12, стр. 2 / Рождественка, 6",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    2
+   ],
+   "desc": "По вторникам вход для девушек бесплатный.",
+   "from": null,
+   "hot": true,
+   "metro": "Пушкинская / Кузнецкий Мост",
+   "price": "Девушкам вход 0 ₽",
+   "time": "",
+   "title": "Женский день",
+   "until": null,
+   "url": "https://most-karaoke.ru/promo/",
+   "venue": "Караоке «Мост»",
+   "when": "Каждый вторник"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "most-loyalty-3000",
+  "data": {
+   "address": "Тверская, 12, стр. 2 / Рождественка, 6",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "3000 бонусов после регистрации и добавления карты в Wallet, можно тратить сразу. Бонусы действуют 45 дней.",
+   "from": null,
+   "hot": false,
+   "metro": "Пушкинская / Кузнецкий Мост",
+   "price": "3 000 бонусов",
+   "time": "",
+   "title": "3000 бонусов новым гостям",
+   "until": null,
+   "url": "https://most-karaoke.ru/promo/",
+   "venue": "Караоке «Мост»",
+   "when": "Каждый день"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "most-set-4",
+  "data": {
+   "address": "Тверская, 12, стр. 2 / Рождественка, 6",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Компании от 4 человек дарят сет настоек. Идеально для отдела.",
+   "from": null,
+   "hot": true,
+   "metro": "Пушкинская / Кузнецкий Мост",
+   "price": "Подарок от 4 гостей",
+   "time": "",
+   "title": "Сет настоек в подарок компании",
+   "until": null,
+   "url": "https://most-karaoke.ru/promo/",
+   "venue": "Караоке «Мост»",
+   "when": "Дни не указаны, уточняйте при брони"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "nebar-girls-free",
+  "data": {
+   "address": "Пятницкая, 66, стр. 2",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "days": [],
+   "desc": "Для девушек вход бесплатный; мужчинам бронь стола с депозитом 2 000 ₽.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "Девушкам 0 ₽, депозит стола 2 000 ₽",
+   "time": "18:00",
+   "title": "Девушкам вход бесплатный",
+   "until": null,
+   "url": "https://www.kp.ru/afisha/msk/obzory/moj-gorod/luchshie-nochnye-kluby-moskvy/",
+   "venue": "Nebar",
+   "when": "Ежедневно, 18:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "perch-bachelor",
+  "data": {
+   "address": "Новорязанская, 26; Садовническая, 54, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 40% на бар и кухню, бронь стола в любой день без депозита.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "−40%",
+   "time": "",
+   "title": "Мальчишник: −40% на бар и кухню",
+   "until": null,
+   "url": "https://theperch.ru/",
+   "venue": "The Perch",
+   "when": "По брони, любой день"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "perch-bar-300",
+  "data": {
+   "address": "Новорязанская, 26; Садовническая, 54, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Пиво и коктейли по специальной цене — от 300 ₽.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "от 300 ₽",
+   "time": "",
+   "title": "Бар от 300 ₽: пиво и коктейли",
+   "until": null,
+   "url": "https://theperch.ru/",
+   "venue": "The Perch",
+   "when": "Каждый день"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "perch-bar-50",
+  "data": {
+   "address": "Новорязанская, 26; Садовническая, 54, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Каждый день до 00:00 скидка 50% на всё барное меню.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "−50% на бар",
+   "time": "",
+   "title": "−50% на бар до полуночи",
+   "until": null,
+   "url": "https://theperch.ru/",
+   "venue": "The Perch",
+   "when": "Ежедневно, до 00:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "perch-double-card",
+  "data": {
+   "address": "Новорязанская, 26; Садовническая, 54, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Покажите клубную карту другого клуба — скидка по ней удваивается. По данным Zoon акция до 27 октября.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "x2 к скидке по карте",
+   "time": "",
+   "title": "Двойная скидка по карте другого клуба",
+   "until": "2026-10-27",
+   "url": "https://theperch.ru/",
+   "venue": "The Perch",
+   "when": "Каждый день, до 27 октября"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "perch-new-guest",
+  "data": {
+   "address": "Новорязанская, 26; Садовническая, 54, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Новым гостям бесплатный вход, приветственный подарок и клубная карта после анкеты на сайте.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "Вход 0 ₽",
+   "time": "",
+   "title": "Бесплатный вход новым гостям",
+   "until": null,
+   "url": "https://theperch.ru/",
+   "venue": "The Perch",
+   "when": "Каждый день"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "perch-shots-12",
+  "data": {
+   "address": "Новорязанская, 26; Садовническая, 54, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Спецпредложение для компаний — сет из 12 рюмок за 5 000 ₽.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "12 рюмок — 5 000 ₽",
+   "time": "",
+   "title": "Компании: 12 рюмок за 5 000 ₽",
+   "until": null,
+   "url": "https://theperch.ru/",
+   "venue": "The Perch",
+   "when": "Каждый день"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "royal-kings-cards",
+  "data": {
+   "address": "Зубовский б-р, 25, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Gold: вход + 3 гостя, −20% на бар и кухню. Silver: вход + 2 гостя, −20%. Black: вход + 1 гость, −10%. Как получить карту, на сайте не указано.",
+   "from": null,
+   "hot": false,
+   "metro": "Парк культуры",
+   "price": "Вход по карте 0 ₽",
+   "time": "22:00",
+   "title": "Карты гостя: бесплатный вход и −20% на бар",
+   "until": null,
+   "url": "https://royal-kings.club/",
+   "venue": "Royal Kings",
+   "when": "Круглосуточно"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "savage-birthday-10",
+  "data": {
+   "address": "ул. Кузнецкий Мост, 19, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Имениннику скидка 10% на барное меню и специальная шоу-программа; организация через WhatsApp клуба.",
+   "from": null,
+   "hot": false,
+   "metro": "Кузнецкий мост",
+   "price": "−10% на бар",
+   "time": "21:00",
+   "title": "День рождения: −10% на бар и шоу",
+   "until": null,
+   "url": "https://savageclub.ru/",
+   "venue": "Savage",
+   "when": "Вс–Чт 21:00–06:00, Пт–Сб 21:00–07:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-birthday",
+  "data": {
+   "address": "Все заведения сети",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Участникам программы лояльности 10 000 ₽ бонусами, можно списать до 20% чека. Действует 7 дней до и после ДР, нужен паспорт.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "Бонусы 10 000 ₽",
+   "time": "",
+   "title": "10 000 бонусов на день рождения",
+   "until": null,
+   "url": "https://karaoke-semenov.ru/promo",
+   "venue": "Караоке SEMENOV",
+   "when": "±7 дней от дня рождения"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-free-entry",
+  "data": {
+   "address": "Столешников пер., 8; Славянская пл., 2; Весковский пер., 7; Красная Пресня, 8; Цветной б-р, 26/1",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Свободный вход в общий зал во всех заведениях сети SEMENOV.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "Вход 0 ₽",
+   "time": "18:00",
+   "title": "Свободный вход в общий зал",
+   "until": null,
+   "url": "https://karaoke-semenov.ru/promo",
+   "venue": "Караоке SEMENOV",
+   "when": "Каждый день, 18:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-girls-wed",
+  "data": {
+   "address": "Все караоке-бары сети",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    3
+   ],
+   "desc": "По средам девушкам свободный вход и бокал игристого. Только для участников программы лояльности.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "Девушкам бокал игристого",
+   "time": "18:00",
+   "title": "Девичник: вход и бокал игристого",
+   "until": null,
+   "url": "https://karaoke-semenov.ru/promo",
+   "venue": "Караоке SEMENOV",
+   "when": "Ср, 18:00–00:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-halloween",
+  "data": {
+   "address": "Столешников пер., 8 и ещё 4 адреса",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Тематические вечеринки в караоке-барах и лофтах, колесо фортуны с призами. Гостям в полном костюме welcome-drink с 18:00 до 23:00.",
+   "from": "2026-10-30",
+   "hot": true,
+   "metro": "Пушкинская",
+   "price": "Вход в общие залы свободный",
+   "time": "18:00",
+   "title": "Хэллоуин: караоке, призы, вечеринки",
+   "until": "2026-10-31",
+   "url": "https://karaoke-semenov.ru/",
+   "venue": "Караоке SEMENOV",
+   "when": "30–31 октября"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-lofts",
+  "data": {
+   "address": "Калужская пл., 1, корп. 2",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    7,
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "Аренда лофта за 1000 ₽/час. Не действует для лофтов «Секс в большом городе», «Тиффани», «Бойцовский клуб», «Джентльмены», «Великий Гэтсби», «Барби» и банкетного зала.",
+   "from": null,
+   "hot": true,
+   "metro": "Октябрьская",
+   "price": "1 000 ₽/час",
+   "time": "12:00",
+   "title": "Лофт для своих за 1000 ₽ в час",
+   "until": "2026-10-31",
+   "url": "https://karaoke-semenov.ru/promo",
+   "venue": "Караоке SEMENOV",
+   "when": "Вс–Чт, до 31 октября"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-lotto-thu",
+  "data": {
+   "address": "Столешников пер., 8",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    4
+   ],
+   "desc": "Караоке-квиз с хитами и призами.",
+   "from": null,
+   "hot": false,
+   "metro": "Пушкинская",
+   "price": "Вход свободный",
+   "time": "",
+   "title": "Музыкальное лото по четвергам",
+   "until": "2026-10-31",
+   "url": "https://karaoke-semenov.ru/promo",
+   "venue": "Караоке SEMENOV",
+   "when": "Каждый четверг октября"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-lotto",
+  "data": {
+   "address": "Весковский пер., 7",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    7
+   ],
+   "desc": "Караоке-квиз: угадывайте хиты, собирайте комбинации, выигрывайте призы.",
+   "from": null,
+   "hot": false,
+   "metro": "Новослободская",
+   "price": "Вход свободный",
+   "time": "",
+   "title": "Музыкальное лото",
+   "until": "2026-10-31",
+   "url": "https://karaoke-semenov.ru/promo",
+   "venue": "Караоке SEMENOV",
+   "when": "Воскресенье"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "semenov-vip-1000",
+  "data": {
+   "address": "Все караоке-бары сети",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    7,
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "Отдельный VIP-зал караоке за 1000 ₽/час. Только для участников программы лояльности, не суммируется с другими акциями.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "1 000 ₽/час",
+   "time": "18:00",
+   "title": "VIP-зал за 1000 ₽ в час",
+   "until": null,
+   "url": "https://karaoke-semenov.ru/promo",
+   "venue": "Караоке SEMENOV",
+   "when": "Вс–Чт, 18:00–00:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "solo-birthday-20",
+  "data": {
+   "address": "Новый Арбат, 15; 1-я Тверская-Ямская, 2, стр. 1; Мясницкая, 24/7, стр. 3; Сущевская, 27, стр. 2; Зацепский вал, 4, стр. 2",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 20% на меню в день праздника и в течение 7 дней до или после.",
+   "from": null,
+   "hot": false,
+   "metro": "Арбатская, Маяковская, Чистые пруды, Менделеевская, Павелецкая",
+   "price": "−20%",
+   "time": "",
+   "title": "−20% на день рождения",
+   "until": null,
+   "url": "https://solokaraoke.ru/",
+   "venue": "Караоке «Соло»",
+   "when": "±7 дней от дня рождения"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "solo-men-mon",
+  "data": {
+   "address": "Новый Арбат, 15; 1-я Тверская-Ямская, 2, стр. 1; Мясницкая, 24/7, стр. 3; Сущевская, 27, стр. 2; Зацепский вал, 4, стр. 2",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    1
+   ],
+   "desc": "По понедельникам бесплатный вход и шот в подарок.",
+   "from": null,
+   "hot": true,
+   "metro": "Арбатская, Маяковская, Чистые пруды, Менделеевская, Павелецкая",
+   "price": "Вход 0 ₽",
+   "time": "18:00",
+   "title": "Мужской день: вход 0 ₽ и шот",
+   "until": null,
+   "url": "https://solokaraoke.ru/",
+   "venue": "Караоке «Соло»",
+   "when": "Понедельник, с 18:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "solo-mendeleev-nodep",
+  "data": {
+   "address": "Сущевская, 27, стр. 2",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "В клубе на Менделеевской нет обязательного депозита ни в один день.",
+   "from": null,
+   "hot": true,
+   "metro": "Менделеевская",
+   "price": "Депозит 0 ₽",
+   "time": "18:00",
+   "title": "Депозит 0 ₽ всю неделю на Менделеевской",
+   "until": null,
+   "url": "https://solokaraoke.ru/",
+   "venue": "Караоке «Соло»",
+   "when": "Каждый день, 18:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "solo-vip-girls",
+  "data": {
+   "address": "",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Закрытая VIP-кабинка для девичника или компании, аренда от 1 500 ₽ в час.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "от 1 500 ₽/час",
+   "time": "18:00",
+   "title": "Девичник в VIP-кабинке от 1 500 ₽/ч",
+   "until": null,
+   "url": "https://solokaraoke.ru/",
+   "venue": "Караоке «Соло»",
+   "when": "Ежедневно, 18:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "solo-women-wed",
+  "data": {
+   "address": "Новый Арбат, 15; 1-я Тверская-Ямская, 2, стр. 1; Мясницкая, 24/7, стр. 3; Сущевская, 27, стр. 2; Зацепский вал, 4, стр. 2",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    3
+   ],
+   "desc": "По средам бесплатный вход и бокал игристого в подарок.",
+   "from": null,
+   "hot": false,
+   "metro": "Арбатская, Маяковская, Чистые пруды, Менделеевская, Павелецкая",
+   "price": "Вход 0 ₽",
+   "time": "18:00",
+   "title": "Женский день: вход 0 ₽ и игристое",
+   "until": null,
+   "url": "https://solokaraoke.ru/",
+   "venue": "Караоке «Соло»",
+   "when": "Среда, с 18:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "strip-go",
+  "data": {
+   "address": "",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Стрип-клуб у Сухаревской, работает без выходных.",
+   "from": null,
+   "hot": true,
+   "metro": "Сухаревская",
+   "price": "Ценовой ориентир 1 500 ₽",
+   "time": "22:00",
+   "title": "Шоу каждый вечер",
+   "until": null,
+   "url": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "venue": "Strip Go",
+   "when": "Ежедневно, 20:00–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "treff8-free-1023",
+  "data": {
+   "address": "Казакова, 8с2",
+   "cat": "club",
+   "checked": "2026-10-22",
+   "days": [
+    5
+   ],
+   "desc": "Вечеринка TREFF8 со свободным входом по предварительной регистрации на timepad, 21+, фейс- и дресс-контроль.",
+   "from": "2026-10-23",
+   "hot": true,
+   "metro": "Курская",
+   "price": "Вход 0 ₽ по регистрации",
+   "time": "21:00",
+   "title": "Свободный вход 23 октября",
+   "until": "2026-10-23",
+   "url": "https://gorodzovet.ru/moskva/treff-event12706176",
+   "venue": "TREFF8 Club",
+   "when": "Пт 23 октября, с 21:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "urban-halloween-twilight",
+  "data": {
+   "address": "Большая Новодмитровская ул., 36с24, подъезд 2",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Вечеринка с хитами 2000-х и 2010-х, костюмы вампиров и оборотней приветствуются, бесплатный попкорн. Вход 23:30–04:00, до 06:00.",
+   "from": "2026-10-30",
+   "hot": true,
+   "metro": "",
+   "price": "Билет 999 ₽",
+   "time": "23:30",
+   "title": "Halloween x «Сумерки»",
+   "until": "2026-10-31",
+   "url": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-klube-urban-v-moskve/",
+   "venue": "Урбан",
+   "when": "31 октября (уточнять: на странице также 30.10), 23:30–06:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "viplounge-birthday-10",
+  "data": {
+   "address": "Большой Дровяной пер., 8с1, подъезд 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 10% имениннику; подробные условия на сайте не раскрыты.",
+   "from": null,
+   "hot": false,
+   "metro": "Таганская",
+   "price": "−10%",
+   "time": "",
+   "title": "−10% на день рождения",
+   "until": null,
+   "url": "https://vip-lounge.moscow/",
+   "venue": "VIP Lounge",
+   "when": "По запросу"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "viplounge-cinema",
+  "data": {
+   "address": "Большой Дровяной пер., 8с1, подъезд 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "По будням (пн–чт) до 18:00 кинопоказ в VIP-комнате — 1 500 ₽ в час.",
+   "from": null,
+   "hot": false,
+   "metro": "Таганская / Марксистская",
+   "price": "1 500 ₽/час",
+   "time": "",
+   "title": "Кинопоказ в VIP-комнате за 1 500 ₽/ч",
+   "until": null,
+   "url": "https://vip-lounge.moscow/",
+   "venue": "VIP Lounge",
+   "when": "Пн–Чт, до 18:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "viplounge-company-7",
+  "data": {
+   "address": "Большой Дровяной пер., 8с1, подъезд 3",
+   "cat": "karaoke",
+   "checked": "2026-10-22",
+   "days": [],
+   "desc": "Компании от 7 человек при брони заранее — специальный депозит. Сумму уточняйте: на странице указаны и 1 500, и 2 500 ₽.",
+   "from": null,
+   "hot": true,
+   "metro": "Таганская / Марксистская",
+   "price": "",
+   "time": "14:00",
+   "title": "Спецдепозит для компании от 7 человек",
+   "until": null,
+   "url": "https://vip-lounge.moscow/akczii/kompanii-ot-7-chelovek/",
+   "venue": "VIP Lounge",
+   "when": "Ежедневно, с 14:00 до закрытия"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "viplounge-day-menu",
+  "data": {
+   "address": "Большой Дровяной пер., 8с1, подъезд 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "desc": "Скидка 10% на дневное меню.",
+   "from": null,
+   "hot": false,
+   "metro": "Таганская / Марксистская",
+   "price": "−10%",
+   "time": "",
+   "title": "Дневное меню −10%",
+   "until": null,
+   "url": "https://vip-lounge.moscow/",
+   "venue": "VIP Lounge",
+   "when": "Пн–Чт, до 18:00"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "viplounge-games-20",
+  "data": {
+   "address": "Большой Дровяной пер., 8с1, подъезд 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка 20% на аренду настольных игр при посещении VIP-комнаты с 14:00 до 18:00, нужна предварительная бронь.",
+   "from": "2026-10-01",
+   "hot": false,
+   "metro": "Таганская / Марксистская",
+   "price": "−20%",
+   "time": "14:00",
+   "title": "−20% на настольные игры днём",
+   "until": "2026-11-30",
+   "url": "https://vip-lounge.moscow/",
+   "venue": "VIP Lounge",
+   "when": "14:00–18:00, по брони"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "xclub-celebration-10",
+  "data": {
+   "address": "Новый Арбат, 21",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Скидка от 10% на все услуги за неделю до и неделю после даты праздника, программа для виновника торжества.",
+   "from": null,
+   "hot": false,
+   "metro": "",
+   "price": "от −10%",
+   "time": "",
+   "title": "ДР и мальчишник: скидка от 10%",
+   "until": null,
+   "url": "https://xclubmoscow.com/",
+   "venue": "Xclub",
+   "when": "±7 дней от даты праздника"
+  }
+ },
+ {
+  "collection": "promos",
+  "id": "xclub-hookah",
+  "data": {
+   "address": "Новый Арбат, 21",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "days": [],
+   "desc": "Каждый день с 21:00 до 24:00 кальян за 3 000 ₽ вместо 6 000 ₽.",
+   "from": null,
+   "hot": true,
+   "metro": "",
+   "price": "Кальян 3 000 ₽ вместо 6 000 ₽",
+   "time": "21:00",
+   "title": "Кальян за 3 000 ₽ до полуночи",
+   "until": null,
+   "url": "https://xclubmoscow.com/",
+   "venue": "Xclub",
+   "when": "Ежедневно, 21:00–00:00"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "16-tonn",
+  "data": {
+   "address": "Пресненский Вал, 6, стр. 1, 2-й этаж",
+   "cat": "club",
+   "checked": "2026-10-22",
+   "desc": "Клуб с концертами и вечеринками.",
+   "hours": "Ежедневно 11:00–06:00",
+   "metro": "Улица 1905 года",
+   "name": "16 тонн",
+   "price": "",
+   "promoKey": "16 тонн",
+   "source": "https://www.afisha.ru/msk/club/16-tonn-12838/",
+   "url": "https://16tons.ru"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "aurora",
+  "data": {
+   "address": "Петровские линии, 2/18",
+   "cat": "strip",
+   "checked": "2026-10-21",
+   "desc": "",
+   "hours": "21:00–06:00",
+   "metro": "",
+   "name": "Aurora Men's Club",
+   "price": "Вход 3 000 ₽",
+   "promoKey": "Aurora",
+   "source": "https://club-aurora.ru/",
+   "url": "https://club-aurora.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "base",
+  "data": {
+   "address": "ул. Орджоникидзе, 11с1",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "desc": "",
+   "hours": "",
+   "metro": "",
+   "name": "Base",
+   "price": "",
+   "promoKey": "Base",
+   "source": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-glavclub/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "beseder",
+  "data": {
+   "address": "Оружейный пер., 15А",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "desc": "",
+   "hours": "",
+   "metro": "Маяковская",
+   "name": "BESEDER",
+   "price": "",
+   "promoKey": "BESEDER",
+   "source": "https://zoon.ru/msk/offers/night_clubs/type/striptiz/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "burlesque",
+  "data": {
+   "address": "Хорошёвское ш., 25, стр. 3; Комсомольский пр., 28 (здание МДМ)",
+   "cat": "strip",
+   "checked": "2026-10-20",
+   "desc": "Два адреса.",
+   "hours": "",
+   "metro": "Полежаевская / Фрунзенская",
+   "name": "Burlesque",
+   "price": "",
+   "source": "https://www.afisha.ru/msk/club/music_clubs/striptease/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "dex",
+  "data": {
+   "address": "Шарикоподшипниковская, 13, стр. 32",
+   "cat": "club",
+   "checked": "2026-10-22",
+   "desc": "Клуб с авторскими вечеринками в районе Дубровки.",
+   "hours": "",
+   "metro": "Дубровка",
+   "name": "Dex",
+   "price": "",
+   "promoKey": "Dex",
+   "source": "https://daily.afisha.ru/cities/36913-shodit-na-stendap-i-poznakomitsya-s-markom-eydelshteynom-chem-zanyatsya-v-moskve-v-oktyabre/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "echo",
+  "data": {
+   "address": "Таганская пл., 12/4, стр. 5; М. Путинковский пер., 1/2, стр. 1",
+   "cat": "karaoke",
+   "checked": "2026-10-20",
+   "desc": "Общий зал и отдельные кабинки.",
+   "hours": "Ежедневно 17:00–06:00",
+   "metro": "Таганская / Пушкинская",
+   "name": "Караоке «Эхо»",
+   "price": "Общий зал 450–600 ₽, кабинка от 1 200 ₽/час",
+   "promoKey": "Эхо",
+   "source": "https://www.echo-karaoke.ru/",
+   "url": "https://www.echo-karaoke.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "egoist",
+  "data": {
+   "address": "ул. Большая Садовая, 5",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "desc": "",
+   "hours": "Ежедневно 20:00–06:00",
+   "metro": "Маяковская",
+   "name": "Эгоист",
+   "price": "Вход 0 ₽ при брони на сайте",
+   "promoKey": "Эгоист",
+   "source": "https://egostrip.ru/",
+   "url": "https://egostrip.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "egoistka",
+  "data": {
+   "address": "Гиляровского, 4, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "",
+   "metro": "Сухаревская / Проспект Мира",
+   "name": "Эгоистка",
+   "price": "",
+   "source": "https://www.afisha.ru/msk/club/music_clubs/striptease/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "evgenich",
+  "data": {
+   "address": "Цветной б-р, 11, стр. 3",
+   "cat": "karaoke",
+   "checked": "2026-10-23",
+   "desc": "Караоке-рюмочная в советском стиле.",
+   "hours": "Ежедневно 12:00–06:00",
+   "metro": "",
+   "name": "Евгенич",
+   "price": "",
+   "promoKey": "Евгенич",
+   "source": "https://evgenich.bar/",
+   "url": "https://evgenich.bar/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "fantomas",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "Вечеринки на крыше.",
+   "hours": "",
+   "metro": "Кропоткинская",
+   "name": "Fantomas Rooftop",
+   "price": "Вход до 1 000 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "gipsy",
+  "data": {
+   "address": "Болотная наб., 3, стр. 4",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "desc": "",
+   "hours": "Пт–Сб 23:00–06:00",
+   "metro": "Полянка",
+   "name": "Джипси",
+   "price": "Вход 3 000 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "glastonberry",
+  "data": {
+   "address": "1-я Дубровская ул., 13А, стр. 1",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "desc": "Клуб с концертами и тематическими вечеринками.",
+   "hours": "",
+   "metro": "",
+   "name": "Glastonberry",
+   "price": "",
+   "promoKey": "Glastonberry",
+   "source": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-glastonberry/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "golden-girls",
+  "data": {
+   "address": "3-я ул. Ямского Поля, 15",
+   "cat": "strip",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "",
+   "metro": "Белорусская",
+   "name": "Golden Girls",
+   "price": "",
+   "source": "https://www.afisha.ru/msk/club/music_clubs/striptease/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "gorilla",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "Пт–Сб 23:00–07:00",
+   "metro": "Сухаревская",
+   "name": "Горилла",
+   "price": "Вход 1 500–3 000 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "honey-bunny",
+  "data": {
+   "address": "Усачёва ул., 2, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "desc": "",
+   "hours": "22:00–06:00",
+   "metro": "",
+   "name": "Honey Bunny",
+   "price": "",
+   "promoKey": "Honey Bunny",
+   "source": "https://hb-club.ru/",
+   "url": "https://hb-club.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "hunters",
+  "data": {
+   "address": "Б. Саввинский пер., 12, стр. 7",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "desc": "",
+   "hours": "Ежедневно 21:00–06:00",
+   "metro": "",
+   "name": "Hunters",
+   "price": "Вход 3 000 ₽ мужчинам, 6 000 ₽ женщинам (только с мужчиной)",
+   "promoKey": "Hunters",
+   "source": "https://club-hunters.ru/",
+   "url": "https://club-hunters.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "izi",
+  "data": {
+   "address": "Басманный пер., 8, стр. 1",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "desc": "",
+   "hours": "Пт–Сб 23:30–06:00",
+   "metro": "Комсомольская",
+   "name": "Izi",
+   "price": "Вход 2 000–2 500 ₽",
+   "promoKey": "Izi",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "jam",
+  "data": {
+   "address": "Самокатная ул., 2к1",
+   "cat": "karaoke",
+   "checked": "2026-10-22",
+   "desc": "Караоке-клуб с ведущим по выходным и VIP-комнатой до 15 человек.",
+   "hours": "Пн–Чт 20:00–06:00, Пт–Вс 18:00–06:00",
+   "metro": "Курская / Бауманская / Площадь Ильича",
+   "name": "Караоке-клуб «Джем»",
+   "price": "Депозит пн–ср 1 000 ₽, чт–вс 2 000 ₽",
+   "promoKey": "Джем",
+   "source": "https://karaoke-jam.ru/",
+   "url": "https://karaoke-jam.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "jao-da",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "Клуб с концертами и танцами.",
+   "hours": "Пт–Сб 23:30–05:00",
+   "metro": "Китай-город",
+   "name": "Китайский лётчик Джао Да",
+   "price": "Вход 1 000–1 500 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "laski",
+  "data": {
+   "address": "Рочдельская, 15, стр. 25–25А",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "desc": "",
+   "hours": "Ср, Чт, Вс 21:00–06:00; Пт–Сб 21:00–09:00",
+   "metro": "",
+   "name": "LASKI",
+   "price": "Вход по предрегистрации",
+   "promoKey": "LASKI",
+   "source": "https://www.kp.ru/afisha/msk/obzory/moj-gorod/luchshie-nochnye-kluby-moskvy/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "liberty",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "Чт–Сб 22:00–06:00",
+   "metro": "Китай-город",
+   "name": "Либерти на Китай-городе",
+   "price": "Вход 1 000–1 500 ₽",
+   "promoKey": "Либерти",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "lukin-rooms",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "Пт–Сб 23:00–06:00",
+   "metro": "Пушкинская",
+   "name": "Лукин Румс",
+   "price": "Вход 1 500–2 000 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "macho",
+  "data": {
+   "address": "Певческий пер., 4, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-22",
+   "desc": "Бесплатный вход каждый день.",
+   "hours": "Ежедневно 21:00–06:00",
+   "metro": "",
+   "name": "Macho Club",
+   "price": "Вход бесплатный",
+   "promoKey": "Macho",
+   "source": "https://machoclub.ru/",
+   "url": "https://machoclub.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "moskva-kurskaya",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "Недорогой клуб в центре.",
+   "hours": "Чт–Сб с 20:00",
+   "metro": "Курская",
+   "name": "Клуб «Москва» на Курской",
+   "price": "Вход 700–1 000 ₽",
+   "promoKey": "Москва",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "moskvich",
+  "data": {
+   "address": "Фролов пер., 1, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-22",
+   "desc": "",
+   "hours": "Ежедневно 21:00–06:00",
+   "metro": "Тургеневская / Чистые пруды",
+   "name": "Москвич",
+   "price": "",
+   "promoKey": "Москвич",
+   "source": "https://moscvichclub.ru/",
+   "url": "https://moscvichclub.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "most",
+  "data": {
+   "address": "Тверская, 12, стр. 2; Рождественка, 6",
+   "cat": "karaoke",
+   "checked": "2026-10-22",
+   "desc": "Два караоке-клуба в центре, кухня и бар до утра.",
+   "hours": "Ежедневно 18:00–06:00",
+   "metro": "Пушкинская / Кузнецкий Мост",
+   "name": "Караоке «Мост»",
+   "price": "",
+   "promoKey": "Мост",
+   "source": "https://most-karaoke.ru/promo/",
+   "url": "https://most-karaoke.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "nebar",
+  "data": {
+   "address": "Пятницкая, 66, стр. 2",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "desc": "",
+   "hours": "Ежедневно 18:00–06:00",
+   "metro": "",
+   "name": "Nebar",
+   "price": "Девушкам вход бесплатный",
+   "promoKey": "Nebar",
+   "source": "https://www.kp.ru/afisha/msk/obzory/moj-gorod/luchshie-nochnye-kluby-moskvy/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "royal-kings",
+  "data": {
+   "address": "Зубовский б-р, 25, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-22",
+   "desc": "Клуб со SPA, работает круглосуточно. Карты гостя дают бесплатный вход.",
+   "hours": "Круглосуточно",
+   "metro": "Парк культуры",
+   "name": "Royal Kings",
+   "price": "",
+   "source": "https://royal-kings.club/",
+   "url": "https://royal-kings.club/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "savage",
+  "data": {
+   "address": "ул. Кузнецкий Мост, 19, стр. 1",
+   "cat": "strip",
+   "checked": "2026-10-22",
+   "desc": "",
+   "hours": "Вс–Чт 21:00–06:00, Пт–Сб 21:00–07:00",
+   "metro": "Кузнецкий мост",
+   "name": "Savage",
+   "price": "",
+   "promoKey": "Savage",
+   "source": "https://savageclub.ru/",
+   "url": "https://savageclub.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "semenov",
+  "data": {
+   "address": "Столешников пер., 8; Славянская пл., 2; Весковский пер., 7; Красная Пресня, 8; Цветной б-р, 26/1; лофты — Калужская пл., 1, корп. 2",
+   "cat": "karaoke",
+   "checked": "2026-10-22",
+   "desc": "Сеть из пяти караоке-баров и лофтов для компаний.",
+   "hours": "Ежедневно 18:00–06:00, лофты с 12:00",
+   "metro": "Пушкинская, Китай-город, Новослободская, Краснопресненская, Цветной бульвар, Октябрьская",
+   "name": "Караоке SEMENOV",
+   "price": "Вход в общие залы свободный",
+   "promoKey": "SEMENOV",
+   "source": "https://karaoke-semenov.ru/",
+   "url": "https://karaoke-semenov.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "skazka",
+  "data": {
+   "address": "",
+   "cat": "strip",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "Ежедневно 21:00–06:00",
+   "metro": "Измайловская",
+   "name": "Мужской клуб «Сказка»",
+   "price": "Вход 1 000–2 000 ₽",
+   "promoKey": "Сказка",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "soho-rooms",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "Чт–Сб 21:00–06:00",
+   "metro": "Спортивная",
+   "name": "Soho Rooms",
+   "price": "Вход 3 000 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "solo",
+  "data": {
+   "address": "Новый Арбат, 15; 1-я Тверская-Ямская, 2, стр. 1; Мясницкая, 24/7, стр. 3; Сущевская, 27, стр. 2; Зацепский вал, 4, стр. 2",
+   "cat": "karaoke",
+   "checked": "2026-10-22",
+   "desc": "Сеть из пяти караоке-клубов в центре.",
+   "hours": "Ежедневно 18:00–06:00",
+   "metro": "Арбатская, Маяковская, Чистые пруды, Менделеевская, Павелецкая",
+   "name": "Караоке «Соло»",
+   "price": "",
+   "promoKey": "Соло",
+   "source": "https://solokaraoke.ru/",
+   "url": "https://solokaraoke.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "strip-go",
+  "data": {
+   "address": "",
+   "cat": "strip",
+   "checked": "2026-10-20",
+   "desc": "Работает без выходных.",
+   "hours": "Ежедневно 20:00–06:00",
+   "metro": "Сухаревская",
+   "name": "Strip Go",
+   "price": "Вход 1 500 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "the-perch",
+  "data": {
+   "address": "Новорязанская, 26; Садовническая, 54, стр. 2",
+   "cat": "strip",
+   "checked": "2026-10-22",
+   "desc": "Сеть мужских клубов, скидки на бар до полуночи.",
+   "hours": "",
+   "metro": "",
+   "name": "The Perch",
+   "price": "Вход бесплатный",
+   "promoKey": "Perch",
+   "source": "https://theperch.ru/",
+   "url": "https://theperch.ru/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "treff8",
+  "data": {
+   "address": "Казакова, 8с2",
+   "cat": "club",
+   "checked": "2026-10-21",
+   "desc": "",
+   "hours": "Пт–Сб 23:00–06:00",
+   "metro": "Курская",
+   "name": "TREFF8 Club",
+   "price": "Вход от 1 500 ₽",
+   "promoKey": "TREFF8",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "twenty-one",
+  "data": {
+   "address": "",
+   "cat": "club",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "Пт–Сб 23:00–06:00",
+   "metro": "Смоленская",
+   "name": "Twenty One Club",
+   "price": "Вход 1 500 ₽",
+   "source": "https://www.gdebar.ru/articles/kluby-nochnye-besplatnyj-vhod-segodnya-a4319",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "urban",
+  "data": {
+   "address": "Большая Новодмитровская ул., 36с24, подъезд 2",
+   "cat": "club",
+   "checked": "2026-10-23",
+   "desc": "",
+   "hours": "",
+   "metro": "",
+   "name": "Урбан",
+   "price": "",
+   "promoKey": "Урбан",
+   "source": "https://www.kp.ru/afisha/msk/prazdniki/hellouin-v-klube-urban-v-moskve/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "vip-lounge",
+  "data": {
+   "address": "Большой Дровяной пер., 8с1, подъезд 3",
+   "cat": "karaoke",
+   "checked": "2026-10-22",
+   "desc": "Караоке и кальянная с VIP-комнатами.",
+   "hours": "Общий зал Вс–Чт 18:00–00:00, Пт–Сб 18:00–05:00",
+   "metro": "Таганская / Марксистская",
+   "name": "VIP Lounge",
+   "price": "Вход 1 000 ₽ или депозит 2 000 ₽",
+   "promoKey": "VIP Lounge",
+   "source": "https://vip-lounge.moscow/",
+   "url": "https://vip-lounge.moscow/"
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "virgins",
+  "data": {
+   "address": "Марксистская, 34, стр. 10",
+   "cat": "strip",
+   "checked": "2026-10-20",
+   "desc": "",
+   "hours": "",
+   "metro": "Таганская / Марксистская",
+   "name": "Virgins",
+   "price": "",
+   "source": "https://www.afisha.ru/msk/club/music_clubs/striptease/",
+   "url": ""
+  }
+ },
+ {
+  "collection": "venues",
+  "id": "xclub",
+  "data": {
+   "address": "Новый Арбат, 21",
+   "cat": "strip",
+   "checked": "2026-10-23",
+   "desc": "Кальян 21:00–24:00 за 3 000 ₽, скидки на праздники.",
+   "hours": "Ежедневно 21:00–06:00",
+   "metro": "",
+   "name": "Xclub",
+   "price": "",
+   "promoKey": "Xclub",
+   "source": "https://xclubmoscow.com/",
+   "url": "https://xclubmoscow.com/"
+  }
+ },
+ {
+  "collection": "meta",
+  "id": "sync",
+  "data": {
+   "lastRun": "2026-10-23T07:03:47+03:00",
+   "found": 81,
+   "venues": 42,
+   "note": "Перенесено из артефакта claude.ai"
+  }
+ }
+]
